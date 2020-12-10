@@ -151,39 +151,10 @@ https://mesinkasironline.web.app</a>
                                            type="text" required/>
                                 </div>
                             </div>
-<!--
-
-                            <div class="form-group ">
-                                <label for="cname" class="control-label col-lg-2" style="text-align: left;">Foto</label>
-
-                                <!-- master footo startv -->
-                              <!--  <div class="col-md-5">
-                                    <div class="fileupload fileupload-new" data-provides="fileupload"><input
-                                                type="hidden">
-                                        <div class="fileupload-new thumbnail" style="width: 200px; height: 150px;">
-                                            <img src="http://www.placehold.it/200x150/EFEFEF/AAAAAA&amp;text=no+image"
-                                                 alt="">
-                                        </div>
-                                       <!-- <div class="fileupload-preview fileupload-exists thumbnail"
-                                             style="max-width: 200px; max-height: 150px; line-height: 10px;"></div>-->
-                                      <!--  <div>
-                                                   <span class="btn btn-default btn-file">
-                                                   <span class="fileupload-new"><i class="fa fa-paper-clip"></i> Select image</span>
-                                                   <span class="fileupload-exists"><i
-                                                               class="fa fa-undo"></i> Change</span>
-                                                   <input type="file" name="product_images" class="default">
-                                                   </span>
-                                            <a href="#" class="btn btn-danger fileupload-exists"
-                                               data-dismiss="fileupload"><i class="fa fa-trash"></i> Remove</a>
-                                        </div>
-                                    </div>
-                                </div>-->
-                                <!-- master foto end
-                            </div>-->
 
                             <div class="form-group ">
                                 <label for="cemail" class="control-label col-lg-12"
-                                       style="text-align: left;">Category</label>
+                                       style="text-align: left;" required >Category</label>
                                 <div class="col-lg-12">
                                     <select name="product_category" class="form-control ">
                                         <option value="">Select Categories</option>
@@ -203,20 +174,20 @@ https://mesinkasironline.web.app</a>
                                 <label for="cemail" class="control-label col-lg-12"
                                        style="text-align: left;">Sell Price </label>
                                 <div class="col-lg-12">
-                                    <input class="form-control " id="tanpa-rupiah" type="text" name="harga_barang"/>
+                                    <input class="form-control " id="tanpa-rupiah" type="number" name="harga_barang"/>
                                 </div>
                             </div>
                             <div class="form-group ">
                                 <label for="curl" class="control-label col-lg-12" style="text-align: left;">Stock</label>
                                 <div class="col-lg-6">
-                                    <input class="form-control " id="tanpa-rupiah" type="text" name="product_stock"/>
+                                    <input class="form-control " id="tanpa-rupiah" type="number" name="product_stock"/>
                                 </div>
                             </div>
 
 
                             <div class="form-group ">
                                 <label for="cemail" class="control-label col-lg-12"
-                                       style="text-align: left;">Unit of product</label>
+                                       style="text-align: left;" required >Unit of product</label>
                                 <div class="col-lg-12">
                                     <select name="satuan" class="form-control ">
                                         <option value="">Select Unit</option>
@@ -231,15 +202,7 @@ https://mesinkasironline.web.app</a>
                                     </select>
                                 </div>
                             </div>
-                            <!--
-                            <div class="form-group ">
-                                <label for="ccomment" class="control-label col-lg-2"
-                                       style="text-align: left;">Deskripsi</label>
-                                <div class="col-lg-5">
-                                    <textarea class="form-control " id="ccomment" name="product_desc"
-                                              required></textarea>
-                                </div>
-                            </div>-->
+
                             <div class="form-group">
                                 <div class="col-lg-12">
                                     <button class="uk-button uk-button-primary" type="submit" name="simpan" value="simpan">Save</button>
